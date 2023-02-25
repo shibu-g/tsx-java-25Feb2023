@@ -29,13 +29,6 @@ public class UserController {
     UserService service;
     Logger l = LoggerFactory.getLogger(UserController.class);
 
-    @GetMapping("/get")
-    public String get() {
-
-        l.info("inside user controller class ");
-        return "Success";
-    }
-
     @PostMapping("/webhook")
     public ResponseEntity<String> getCommits(@RequestBody String s) {
         String newstr = "";
