@@ -25,7 +25,7 @@ everyone can acces my localhost page
 
 
 ***"https://api.github.com/shibu-g/dummy-github-events/commits"
-through this link we are extraction the all commits internally
+through this link we are extracting the all commits internally.
 anyone can acces through this link:-"https://f546-223-237-122-102.in.ngrok.io/getallcommits".
 
         
